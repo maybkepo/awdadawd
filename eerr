@@ -1,6 +1,6 @@
 local arguments = table.pack(...)
 local sharedEnv = getgenv and getgenv() or _G
-local previous = rawget(sharedEnv, 'Donnie')
+local previous = rawget(sharedEnv, 'donnie - discord.gg/jhXfdGbTCk')
 
 if type(previous) == 'table' and (previous.status == 'starting' or previous.status == 'entry_returned') then
     return previous
